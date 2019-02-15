@@ -2,13 +2,7 @@ package application;
 
 
 import java.io.Serializable;
-/**
- * This class is part of the solution for assignment 3. The class represents a pizza, containing
- * the size, the amount of cheese, pineapple, green pepper and ham. It can also produce the cost 
- * of that pizza using hard-coded prices.
- * @author Alan McLeod
- * @version 1.3
- */
+
 public class Pizza implements Serializable {
 
 	private static final long serialVersionUID = 1856146538106631512L;
