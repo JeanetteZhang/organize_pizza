@@ -1,13 +1,7 @@
 package application;
 
 import java.io.Serializable;
-/**
- * This class is part of the solution to assignment 3. It represents a single line item
- * in a pizza order. The line item contains a link to the Pizza object as well as the number
- * of these pizzas to be ordered.
- * @author Alan McLeod
- * @version 1.2
- */
+
 public class LineItem implements Comparable<LineItem>, Serializable {
 
 	private static final long serialVersionUID = -1791484805268644829L;
