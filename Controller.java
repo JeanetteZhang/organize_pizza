@@ -1,5 +1,5 @@
 //Programmer: Jinting Zhang
-//Student number: 20059360
+
 package application;
 
 import java.net.URL;
