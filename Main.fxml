@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<GridPane prefHeight="451.0" prefWidth="854.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="application.Controller">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="60.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="28.0" />
+      <RowConstraints maxHeight="32.0" minHeight="0.0" prefHeight="32.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="60.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="115.0" minWidth="10.0" prefWidth="80.0" />
+      <ColumnConstraints maxWidth="160.0" minWidth="10.0" prefWidth="140.0" />
+      <ColumnConstraints maxWidth="140.0" minWidth="10.0" prefWidth="120.0" />
+      <ColumnConstraints maxWidth="193.0" minWidth="10.0" prefWidth="141.0" />
+      <ColumnConstraints maxWidth="188.0" minWidth="10.0" prefWidth="140.0" />
+      <ColumnConstraints maxWidth="172.0" minWidth="10.0" prefWidth="120.0" />
+      <ColumnConstraints maxWidth="115.0" minWidth="10.0" prefWidth="76.0" />
+   </columnConstraints>
+   <children>
+      <ChoiceBox fx:id="setSize" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="setCheese" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <ChoiceBox fx:id="setPineapple" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="setGreenPepper" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+      <ChoiceBox fx:id="setHam" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <Label text="Size" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <Label text="Cheese" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <Label text="Pineapple" GridPane.columnIndex="1" GridPane.rowIndex="9">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <Label text="Green pepper" GridPane.columnIndex="1" GridPane.rowIndex="13">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <Label text="Ham" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <Label text="Price" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="price" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <TextField fx:id="amount" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <Label text="Number" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <Label text="Cost" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cost" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <Button fx:id="display" mnemonicParsing="false" prefHeight="54.0" prefWidth="120.0" text="Display" GridPane.columnIndex="3" GridPane.rowIndex="11">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="orderArea" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="10" GridPane.rowSpan="7" />
+   </children>
+</GridPane>
